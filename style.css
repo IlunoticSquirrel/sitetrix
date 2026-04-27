@@ -1,0 +1,355 @@
+body {
+  background: black; /* fundo preto */
+}
+
+/* Container geral */
+.container-box {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  color: black;
+}
+
+
+.logo-img {
+  height: 50px;
+  width: auto;
+}
+
+/*NavB*/
+.custom-navbar {
+  background: black;
+  border: 1px solid red;
+}
+
+.custom-navbar .nav-link {
+  color: red !important;
+  font-weight: bold;
+}
+
+.custom-navbar .nav-link:hover {
+  color: white !important;
+}
+
+.custom-navbar .navbar-brand {
+  color: red !important;
+}
+
+.navbar-toggler {
+  border: 1px solid red;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); 
+}
+
+/* LOGO */
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-img {
+  height: 180px; 
+  width: auto;
+}
+
+
+.menu-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: black;
+  border: 3px solid red;
+  margin-bottom: 20px;
+}
+
+
+.menu-box {
+  display: flex;
+  justify-content: space-between;
+
+  border: 2px solid red; 
+  background: black;
+
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+/* Links */
+.menu-box a {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+
+  color: red;
+  text-decoration: none;
+  font-family: 'Cinzel', serif; 
+
+  border-right: 1px solid red; 
+}
+
+
+.menu-box a:last-child {
+  border-right: none;
+}
+
+/* Hover */
+.menu-box a:hover {
+  background: transparent; 
+  color: red;
+
+  text-decoration: underline; 
+  text-shadow: 0 0 8px red; 
+}
+
+/* Banner */
+.banner {
+  border: 0px solid red;
+  padding: 180px 20px; 
+  margin-bottom: 20px;
+
+  position: relative;
+
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(61, 14, 14, 0.6)),
+    url('https://i.ibb.co/60knrBN1/Chat-GPT-Image-26-de-abr-de-2026-19-19-59.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  border-radius: 0;
+}
+
+.btn-banner {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  font-family: 'Cinzel', serif;
+
+  background: black;
+  color: red;
+  border: 2px solid red;
+}
+
+.btn-banner:hover {
+  background: red;
+  color: black;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+/* Títulos */
+.titulo-secao {
+  color: red; 
+  text-shadow: 2px 2px 5px red; 
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+}
+
+/* Container de destaques */
+.destaque-container {
+  background: black;
+  border: 3px solid red;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Box interna */
+.destaque-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 0px solid red;
+  padding: 20px;
+  font-family: 'Cinzel', serif;
+  text-align: left; 
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Archive */
+.topicos-box {
+  border: 3px solid red;
+  padding: 20px;
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+.archive-item {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: white;
+  transition: 0.3s;
+}
+
+.archive-item:hover {
+  color: red;
+  cursor: pointer;
+}
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px red;
+}
+
+/* Container do jogo */
+.jogo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  background: black;
+  border: 2px solid red;
+  box-shadow: 0 0 15px red;
+
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Imagem à esquerda */
+.jogo-img-lado {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Texto */
+.jogo-info h3 {
+  margin: 0;
+  color: red;
+  font-family: 'Cinzel', serif;
+}
+
+.jogo-info p {
+  margin-top: 10px;
+  color: white;
+}
+
+.jogo-info {
+  font-family: 'Cinzel', serif;
+}
+
+.jogo-info h3 {
+  font-family: 'Cinzel', serif;
+  color: red;
+}
+
+.jogo-info p {
+  font-family: 'Cinzel', serif;
+}
+
+.mais-jogos {
+  color: white;
+  margin-top: 15px;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+}
+
+/* Container do formulário */
+.contato-box {
+  border: 3px solid red;
+  background: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+/* Botão enviar */
+.btn-enviar {
+  background: black;
+  color: red;
+  border: 2px solid red;
+  padding: 10px 20px;
+  font-family: 'Cinzel', serif;
+}
+
+.btn-enviar:hover {
+  background: red;
+  color: black;
+}
+
+/* Redes sociais */
+.redes {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.btn-redes {
+  background: black;
+  color: red;
+  border: 2px solid red;
+  padding: 10px 20px;
+  font-family: 'Cinzel', serif;
+}
+
+.btn-redes:hover {
+  background: red;
+  color: black;
+}
+
+/* Box padrão */
+.sobre-box {
+  border: 3px solid red;
+  background: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+/* Box menor */
+.sobre-box.pequeno {
+  width: 50%;
+}
+
+/* Texto simples */
+.texto-simples {
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Cinzel', serif;
+}
+
+/* Layout lado a lado */
+.sobre-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Objetivos */
+.objetivos {
+  color: white;
+  font-family: 'Cinzel', serif;
+}
+
+/* Container único do sobre */
+.sobre-container {
+  border: 3px solid red;
+  background: black;
+  padding: 20px;
+  margin-top: 20px;
+
+  color: white;
+  font-family: 'Cinzel', serif;
+  line-height: 1.6;
+}
+
+/* Espaçamento entre textos */
+.sobre-container p {
+  margin-bottom: 15px;
+}
